@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    box-shadow: 0;
+}
+body{
+    height: 100%;
+    width: 1435px;
+    background-color: #82a5ba
+    #aabec6;
+    overflow: hidden;
+}
+
+/* Home Navbar */
+
+.home-navbar{
+    height: 100px;
+
+}
+.homebrand h1{
+    font-size: 20px;
+}
+.homenav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #79e0f3;
+    color: #142433;
+    padding: 0px 50px;
+    
+}
+.hometopic{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+.hometopic h2:hover{
+    border-bottom: 3px solid #142433;
+}
+
+.homelogin{
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+.homelogin button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #142433;
+    color: #79e0f3;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.homelogin button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #142433;
+    background-color: #79e0f3;
+}
+
+/* Home Main */
+
+.home-content{
+    height: 610px;
+    width: 1535px;
+    overflow: scroll;
+}
+.home-content::-webkit-scrollbar{
+    display: none;    
+}
+
+.HomeMain{
+    height: 610px;
+    width: 1435px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+.HomeMainLeft{
+    flex: 50%;
+}
+.HomeMainContent{
+    height: 100%;
+    gap: 40px;
+}
+.HomeMainContent h2{
+    font-size: 55px ;
+    line-height: 25px;
+}
+.HomeMainTheme{
+    font-size: 20px;
+    line-height: 10px;
+}
+.HomeMainTheme button{
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    background-color: #142433;
+    color: #79e0f3;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.HomeMainTheme button:hover{
+    background-color: #79e0f3;
+    color: #142433;
+}
+.HomeMainRight{
+    flex: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.HomeMainImage{
+    object-fit: cover;
+}
+
+
+/* Home Specification */
+.homespeciality{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homespeciality-box{
+    padding: 30px;
+    background-color: #142433;
+    display: flex;
+    border-radius: 5px;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.box h2,.box h4{
+    color: #79e0f3;
+}
+.icon{
+    font-size: 40px;
+    color: #79e0f3;
+    background-color: #79e0f3;
+    padding: 20px;
+    border-radius: 50%;
+}
+/* Covid19 */
+.covid19{
+    height: 420px;
+    width: 100%;
+    background-color: #142433;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 50px;
+}
+.covid19 h2{
+    height: 100px;
+    width: 100%;
+    color: #79e0f3;
+    font-size: 30px;
+}
+.test{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.test-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #79e0f3;
+    font-size: 15px;
+    font-weight: 800;
+}
+.covid19 button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #79e0f3;
+    font-weight: bold;
+    cursor: pointer;   
+    transition: all 0.5s ease;
+}
+.covid19 button:hover{
+    background-color: #142433;
+    color: #79e0f3;
+}
+
+/* contact */
+
+.contact{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+   
+}
+.contact-box{
+    height: 100%;
+    gap: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-li{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.service{
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
