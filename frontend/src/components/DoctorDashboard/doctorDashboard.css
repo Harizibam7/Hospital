@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.doctordashboard{
+    height: 100%;
+    width: 1435px;
+    display: flex;
+}
+.doctorside{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    background-color: #01224f;
+  
+}
+.doctorside-top{
+    height: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.doctorside-top h2{
+    color: white;
+}
+.doctorside-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    list-style: none;
+    width: 100%;
+    gap: 40px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.doctorside-list li{
+    color: white;
+}
+.doctorside-list li:hover{
+    color: #00529a;
+}
+.doctorside-logout{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;    
+}
+.doctorside-logout span{
+    color: white;
+}
+.doctormain{
+    width: 950px;
+    height: 100vh;
+    background-color: 	#E0F4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Doctor Main Top */
+
+.doctormaintop{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.doctormaintop-search{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+.maintop-icon{
+    width: 50px;
+}
+.maintop-search{
+    width: 100%;
+    height: 80%;    
+    border: none;
+}
+.doctormaintop-date{
+    height: 40px;
+    width: 300px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.doctormainbody{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.doctormainstatiscs{
+    height: 200px;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.doctorbodycondition{
+    height: 200px;
+    width: 95%;
+    gap: 20px;
+    display: flex;
+    
+}
+.doctormainbox{
+    height: 100%;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+
+.doctor-appointment{
+    height: 247px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.doctor-appointment-header{
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.doctor-appointment-details{
+    height: 200px;
+    width: 100%;
+    overflow: scroll;
+}
+.doctor-appointment-details::-webkit-scrollbar{
+    display: none;
+}
+.doctor-appointment-box{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;   
+    cursor: pointer; 
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+.doctor-appointment-box li{
+    transition: all 0.5s ease;  
+}
+.doctor-appointment-box:hover {
+    border-radius: 5px;
+    background-color: #01224f;
+    transform:scale(1.0011);
+    
+}
+.doctor-appointment-box:hover > li{
+    color: white;
+}
+/* Doctor right side */
+.doctorrightside{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 20px;
+}
+.doctorprofile{
+    width: 330px;
+    height: 360px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+.doctorprofile-image{
+    height: 60px;
+    width: 60px;
+    background-color: #01224f;
+    border-radius: 50%;
+}
+.doctorprofile-image img{
+    background-color: #01224f;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.doctorprofile-details{
+    height: 100%;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.doctorprofile-details-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.doctorprofile-details-field input{
+    padding: 0px 5px;
+    outline: none;
+}
+.doctorprofile-update{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 190px;
+    font-weight: 600;
+    color: white;
+    background-color: #01224f;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.doctorprofile-update:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: transparent;
+    color: #01224f;
+}
+
+.doctortask{
+    width: 330px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+.doctortask span{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.doctor-task-sch{
+    height: 200px;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: center;
+}
+.doctor-task-li{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px; 
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    gap: 5px;
+}
+.doctor-task-sch::-webkit-scrollbar{
+    display: none;
+}
+.doctor-task-add{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctor-task-input{
+    height: 30px;
+    width: 70%;
+    padding: 0px 20px;
+    outline: none;
+}
+.doctor-task-btn{
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #01224f;
+    color: white;
+}

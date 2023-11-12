@@ -1,24 +1,15 @@
 import React from 'react'
+import DoctorSide from './doctorSide';
+import './doctorDashboard.css';
+import DoctorMain from './DoctorMain';
+import DoctorRightSide from './DoctorRightSide';
 
 function doctordashboard() {
   return (
-    <div>
-        <div>
-            <div>
-                <img src={}/>
-            </div>
-            <ul>
-                <li>Home</li>
-                <li>Appointments</li>
-                <li>Doctors</li>
-                <li>Staff</li>
-                <li>Patient</li>
-                <li>Payment</li>
-            </ul>
-        </div>
-        <div>
-            <img src={}/>
-        </div>
+    <div className='doctordashboard'>
+        <DoctorSide/>
+        <DoctorMain/>
+        <DoctorRightSide/>
     </div>
   )
 }
