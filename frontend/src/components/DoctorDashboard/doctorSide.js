@@ -9,9 +9,9 @@ export default function doctorSide() {
              <ul className='doctorside-list'>
                     <li className='doctorside-active'>Home</li>
                     <li>Appointments</li>
-                    <li>Doctors</li>
                     <li>Staff</li>
                     <li>Patient</li>
+                    <li>Message</li>
                     <li>Payment</li>
                 </ul>
                 <div className='doctorside-logout'>

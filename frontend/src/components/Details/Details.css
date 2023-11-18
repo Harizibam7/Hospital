@@ -1,0 +1,127 @@
+.details{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.details-header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    gap: 80px;
+}
+.details-img{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.details-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.details-name{
+    font-size: 20px ;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.details-name span{
+    color: gray;
+    font-weight: 600;
+}
+.details-icons{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.details-msg{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    background-color: gold;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+.details-new{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: gold;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+.details-nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-nav-ul{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 90px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.details-nav-ul li{
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.details-nav-ul li:hover{
+    background-color: #01224f;
+    color: white;
+}
+.details-information{
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    gap: 20px;
+}
+.details-information h2{
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+}
+.details-information-field{
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.details-information-field label{
+    color: gray;
+}
