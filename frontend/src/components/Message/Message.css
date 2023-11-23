@@ -1,0 +1,196 @@
+.Message{
+    height: 707px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.messagebottom{
+    height: 700px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 70px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.messagebottom-tag{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    gap: 20px;
+}
+.messagebottom-profile{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.messagebottom-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.messagebottom-name{
+    font-size: 10px;
+    font-weight: 800;
+}
+.messagebottom-tag::-webkit-scrollbar,.messagemainbody::-webkit-scrollbar{
+    display: none;
+}
+.message-left,.message-right{
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+.MessageMain{
+    height: 100%;
+    width: 100%;
+}
+.messagemainbottom{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.messagemainbody{
+    height: 565px;
+    width:100%;
+    background-color: #E0F4FF;
+    overflow: scroll;
+}
+.messagechat{
+    height: 30px;
+    background-color: black;
+}
+
+.msger-chat {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .msger-chat::-webkit-scrollbar {
+    width: 6px;
+  }
+  .msger-chat::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  .msger-chat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+  }
+  .msg {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  .msg:last-of-type {
+    margin: 0;
+  }
+  .msg-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url('https://image.flaticon.com/icons/svg/145/145867.svg');
+  }
+  .msg-bubble {
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background: var(--left-msg-bg);
+    color: black;
+  }
+  .msg-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .msg-info-name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .msg-info-time {
+    font-size: 0.85em;
+  }
+  
+  .left-msg .msg-bubble {
+    border-bottom-left-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .right-msg {
+    flex-direction: row-reverse;
+  }
+  .right-msg .msg-bubble {
+    background: var(--right-msg-bg);
+    border-bottom-right-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .right-msg .msg-img {
+    margin: 0 0 0 10px;
+  }
+  
+
+
+.messagemaintop{
+    height: 70px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    gap: 20px;
+    cursor: pointer     ;
+}
+.messagetopdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.messagemaintopimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.messagemaintopname{
+    font-size: 20px;
+    font-weight: 600;
+}
+.messagemaininput{
+    width: 70%;
+    height: 50px;
+    font-size: 16px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.messagemainicon{
+    width: 40px;
+    padding: 10px;
+    height: 40px;
+    background-color: #E0F4FF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.messagemainicon:hover{
+    border:1px dashed black
+}
+

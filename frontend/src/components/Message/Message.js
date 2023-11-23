@@ -1,8 +1,13 @@
 import React from 'react'
-
+import MessageMain from './MessageMain'
+import MessageBottom from './MessageBottom'
+import './Message.css';
 function Message() {
   return (
-    <div>Message</div>
+    <div className='Message'> 
+        <MessageMain/>
+        <MessageBottom/>
+    </div>
   )
 }
 
